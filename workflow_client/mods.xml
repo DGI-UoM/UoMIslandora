@@ -1,0 +1,40 @@
+
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-0.xsd">
+  <mods:titleInfo>
+    <mods:title>Al-Ameen Islamic Centre</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo type="alternative">
+    <mods:title>Mosque A</mods:title>
+  </mods:titleInfo>
+  <mods:originInfo>
+    <mods:createdDate>1960</mods:createdDate>
+    <mods:capturedDate>06/18/2010</mods:capturedDate>
+  </mods:originInfo>
+  <mods:note>Two 27-store triangular towers clad in rose-coloured granite and turquoise glazing.  The programme comprises 34&apos;000 sq.m. of offices, and 15&apos;000 sq.m. of shopping facilities on the lower levels.</mods:note>
+  <mods:subject>
+    <mods:hierarchicalGeographic>
+      <mods:country>Canada</mods:country>
+      <mods:province>Alberta</mods:province>
+      <mods:city>Edmonton</mods:city>
+      <mods:area>15 Marsett Place</mods:area>
+    </mods:hierarchicalGeographic>
+  </mods:subject>
+  <mods:subject ID="building type" authority="aat">
+    <mods:topic>Religious Buildings</mods:topic>
+  </mods:subject>
+  <mods:subject ID="building style" authority="aat">
+    <mods:topic>Hybrid</mods:topic>
+  </mods:subject>
+  <mods:subject ID="building usage" authority="aat">
+    <mods:topic>Religious</mods:topic>
+  </mods:subject>
+  <mods:relatedItem type="host">
+    <mods:titleInfo>
+      <mods:title>Prairie Islamic Architecture</mods:title>
+    </mods:titleInfo>
+    <mods:identifier type="pid">uofm:prairieIslamic</mods:identifier>
+    <mods:identifier type="hdl">10719/prairieIslamic</mods:identifier>
+  </mods:relatedItem>
+  <mods:identifier type="pid">uofm:254</mods:identifier>
+  <mods:identifier type="hdl">10719/254</mods:identifier>
+</mods:mods>

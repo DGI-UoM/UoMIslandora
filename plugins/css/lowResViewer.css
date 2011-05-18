@@ -1,0 +1,217 @@
+
+.viewer
+{
+  width: 950px;
+  height: 525px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #e0e0e0;
+  font-family: Verdana,Arial,sans-serif;
+  
+}
+
+.viewer .toolbar
+{
+  margin: 0;
+  height: 44px;
+  width: 950px;
+  border-bottom: 1px solid #ccc;
+}
+
+.viewer #contentPane
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 600px;
+  height:480px;
+  background-color: #000;
+  overflow:hidden;
+  float:left;
+}
+
+.viewer #contentPane.thumbs
+{
+  width: 450px;
+}
+
+.viewer .thumbnailsPane
+{
+  width: 150px;
+  height:470px;
+  float:left;
+  background-color: #000;
+  text-align: center;
+  padding-top: 10px;
+  border-left: 1px solid #111; 
+  overflow: auto;
+}
+
+
+.viewer .thumbnailsPane .thumb {
+  
+  cursor: hand;
+  filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity:0.5;
+        opacity:0.5;
+}
+
+.viewer .thumbnailsPane .thumb:hover {
+
+  filter:alpha(opacity=100);
+        -moz-opacity:1;
+        -khtml-opacity:1;
+        opacity:1;
+}
+
+.viewer .thumbnailsPane .selected {
+
+  filter:alpha(opacity=100);
+        -moz-opacity:1;
+        -khtml-opacity:1;
+        opacity:1;
+}
+
+
+.viewer .metadataPane
+{
+  width:325px;
+  float:right;
+}
+
+.viewer .metadataPane .text
+{
+  margin: 6px;
+  padding: 2px;
+  overflow: auto;
+  height: 468px;
+  background-color:#f6f6f5;
+}
+
+.viewer .metadataPane .text h3 
+{
+   margin: 6px;
+   padding: 2px;
+}
+
+.viewer .metadataPane .text ul 
+{
+    margin: 0; padding:0;
+}
+
+.viewer .metadataPane .text ul li
+{
+  background-color: #f6f6f5; 
+  list-style: none;
+  margin: 0; padding: 10px;
+  padding-top: 0px;
+  padding-bottom:5px;
+  width: 278px;  
+}
+
+.viewer .metadataPane .text ul li.alternate
+{
+   background-color: #eaeae9;
+}
+
+
+.toolbar div.title { 
+  margin-top: 6px;
+  margin-left: 6px;
+  float: left;
+  height: 32px;
+  line-height: 6px;
+}
+
+.toolbar div.pageControls { 
+  float: right;
+  margin-right: 50px;
+  height: 32px;
+}
+
+.toolbar div.pageControls div.pageText {
+  float: right; 
+  margin: 6px;
+  line-height: 32px;
+}
+
+.toolbar button {
+  
+  height: 32px;
+  text-decoration: none !important;
+  cursor: pointer;
+  padding: 6px;
+  float: right;
+  margin: 6px;
+}
+
+
+
+.ui-icon { 
+  
+height: 16px;
+background-repeat: no-repeat;
+display: block;
+overflow-x: hidden;
+overflow-y: hidden;
+text-indent: 20px;
+font-size: 80%;
+padding-top: 2px;
+
+}
+
+
+.ui-state-default .ui-icon.iiv-icon-print {
+  background-image: url('./print-icon.png');
+  background-position: 0px 0px;
+}
+
+.ui-state-hover .ui-icon.iiv-icon-text, .ui-state-active .ui-icon.iiv-icon-print {
+  background-image: url('./print-icon.png');
+  background-position: 0px -16px;
+}
+
+.ui-state-default .ui-icon.iiv-icon-prevPage {
+  background-image: url('./page-icons.png');
+  background-position: 0px 0px;
+}
+
+.ui-state-hover .ui-icon.iiv-icon-text, .ui-state-active .ui-icon.iiv-icon-prevPage {
+  background-image: url('./page-icons.png');
+  background-position: 0px -16px;
+}
+
+.ui-state-default .ui-icon.iiv-icon-nextPage {
+  background-image: url('./page-icons.png');
+  background-position: 0px -32px;
+}
+
+.ui-state-hover .ui-icon.iiv-icon-text, .ui-state-active .ui-icon.iiv-icon-nextPage {
+  background-image: url('./page-icons.png');
+  background-position: 0px -48px;
+}
+
+
+.ui-state-default .ui-icon.iiv-icon-download {
+  background-image: url('./download-icon.png');
+  background-position: 0px 0px;
+}
+
+.ui-state-hover .ui-icon.iiv-icon-text, .ui-state-active .ui-icon.iiv-icon-download {
+  background-image: url('./download-icon.png');
+  background-position: 0px 0px;
+}
+
+.ui-state-default .ui-icon.iiv-icon-text {
+  background-image: url('./iiv-icons.png');
+  background-position: 0px 0px;
+  color: #555;
+}
+
+.ui-state-hover .ui-icon.iiv-icon-text, .ui-state-active .ui-icon.iiv-icon-text {
+  background-image: url('./iiv-icons.png');
+  background-position: 0px -16px;
+  color: #000;
+}
